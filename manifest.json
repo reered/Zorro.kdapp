@@ -1,0 +1,39 @@
+{
+  "experimental": false,
+  "background": false,
+  "hiddenHandle": false,
+  "forceUpdate": false,
+  "behavior": "application",
+  "version": "0.1",
+  "title": "Zorro",
+  "name": "Zorro",
+  "identifier": "com.koding.apps.zorro",
+  "path": "~/Applications/Zorro.kdapp",
+  "homepage": "dicle.lvh.me/zorro",
+  "author": "dicle goksel",
+  "authorNick": "dicle",
+  "repository": "git://github.com/dicle/zorro.kdapp.git",
+  "description": "Zorro : a Koding application created with the blank template.",
+  "category": "web-app",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "screenshots": [],
+  "menu": [],
+  "fileTypes": []
+}
